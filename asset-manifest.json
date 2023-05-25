@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/recipeapp/static/css/main.cc40e958.css",
+    "main.js": "/recipeapp/static/js/main.769da728.js",
+    "static/js/988.c0a2e0ba.chunk.js": "/recipeapp/static/js/988.c0a2e0ba.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/recipeapp/static/media/Montserrat-Regular.94bb495fba6077f669ed.ttf",
+    "static/media/FuturaCyrillicBook.ttf": "/recipeapp/static/media/FuturaCyrillicBook.2de8b91724cbda1d9fbd.ttf",
+    "static/media/demo.avif": "/recipeapp/static/media/demo.05c902805c181fc5bf7e.avif",
+    "index.html": "/recipeapp/index.html",
+    "main.cc40e958.css.map": "/recipeapp/static/css/main.cc40e958.css.map",
+    "main.769da728.js.map": "/recipeapp/static/js/main.769da728.js.map",
+    "988.c0a2e0ba.chunk.js.map": "/recipeapp/static/js/988.c0a2e0ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc40e958.css",
+    "static/js/main.769da728.js"
+  ]
+}
