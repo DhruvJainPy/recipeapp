@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: font1;
+  src: url(./static/Montserrat-Regular.ttf);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: font2;
+  src: url(./static/FuturaCyrillicBook.ttf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.input {
+  flex: 1;
+  border: 0;
+  outline: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input::placeholder {
+  color: rgba(256, 256, 256, 0.8);
+}
+.input-container {
+  background-image: linear-gradient(90deg, #484748, #393839);
+}
+.input-container:nth-child(1) {
+  cursor: pointer;
+}
+.p {
+  font-family: font2 !important;
+}
+.btn {
+  transition: linear 0.3s !important;
+}
+button:focus {
+  border: none !important;
+  outline: none !important;
+}
+.recipe {
+  transition: linear 0.3s;
+}
+.recipe:hover {
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px grey);
+}
+.li {
+  cursor: pointer;
+  color: #123456 !important;
+  font-family: font2;
+  font-size: 1.25rem;
+}
+.li:hover {
+  text-decoration: underline;
+}
+.info {
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 4px 4px 4px grey;
 }
